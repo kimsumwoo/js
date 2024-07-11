@@ -101,16 +101,63 @@
     }
     console.log("----------")
 
-        var ban = 5;
-     for(let i=1; i<=ban; i++){
-           var star = "";
+    // star="*"
+    // for(let i=1; i<=5; i++){ //늘어남
+    //     for(let j=1; j<=1; j++){ 
+    //         //애도늘어남 j<=5; 5넣었더니 5*5식으로늘어남 
+    //         //j<=1넣었더니됨
+    //         console.log(star = star + "*") 
+    //         //star = star + ?(비웠더니 오류) = starstar+?(일단뭐라도넣음)
+    //     }
+    // }
+    //     let star = "";
+    // for(let i=1; i<5; i++){
+    //     for(let j=1; j<=i; j++){
+    //         star += "*";
+    //     }
+    //     console.log(star);
+    //     star = "";
+    // }
+
+    console.log("-------------")
+
+
+    // let star2 ="";
+    // var empty = "";
+    // for(let i=1; i<=5; i++){
+    //     for(let j=1; j<=(2*i)-1; j++){
+    //         star2+="*";
+    //     }
+    //     for(let k=(5-i); k>=1; k--){
+    //         empty += " ";
+    //         // console.log(i + ":" + j + ":" + k);
+    //     }
+    //     console.log(empty + star2 + empty);
+    //     // console.log(star2);
+          
+    // }
+    // star2 = "";
+    // empty = "";
+
+    star2 = "";
+        empty = "";
+
+    for(let i=1; i<=5; i++){
         for(let j=1; j<=i; j++){
-            star = star + "*";
+            star2+="*";
         }
-        console.log(star);
-     }
+        for(let k=(5-i); k>=1; k--){
+            empty += " ";
+        }
+        console.log(empty + star2); 
+
+        star2 = "";
+        empty = "";
         
-        
+    }
+    
+    
+
 
 
      
