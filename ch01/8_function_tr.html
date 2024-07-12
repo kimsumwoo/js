@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+        
+           
+       
+
+   
+
+        var a = 50; 
+        var b = 49;
+    
+        var reuslt = num(a,b);
+        // aaa(reuslt);
+
+
+        function num(num1,num2){
+            let result;
+            if(num1<num2){
+                result =num2;
+                return result;
+                
+               
+            }else{
+                result = num1;
+                return result;
+                
+                
+            }
+           
+        }
+        function aaa(ccc){
+            alert("변수a 와 변수b 중 더 큰 수는"+ ccc + "입니다");
+        }
+
+        var c =3;
+        var reuslt2 = kim(c);
+        sun(reuslt2);
+
+        function kim(kkk){
+            let reuslt2;
+            if(kkk%2 == 0){
+                return "짝수";
+            } else{
+                return "홀수";
+            }
+        }
+
+        function sun(ddd){
+            if(ddd == "홀수"){
+                alert(ddd + "입니다");
+            } else{
+                alert(ddd + "입니다");
+            }
+        }
+
+
+        var int3 =1;
+        var string = oddeven(int3);
+        display(int3, string);
+
+        function oddeven(num){
+            let result;
+            if(num%2 == 0){
+                result = "짝수";
+            }else{
+                result = "홀수";
+            }
+            return result;
+        }
+
+        function display(num,str){
+            if(num == 0){
+                alert("0은 0이다.");
+            } else if(num<0){
+                alert("음수를넣지마라");
+            } else{
+                alert(num + "은/는" + str + "입니다.");
+            }
+        }
+
+
+       
+
+
+        
+
+     
+
+        
+        
+
+        
+    </script>
+</body>
+</html>
